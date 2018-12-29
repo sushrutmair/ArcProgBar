@@ -103,8 +103,6 @@ public class FragArcPointer extends Fragment {
         //1 divided into 180 equal parts...
         final float eqIntv = 0.005555556f;
 
-        //Method m[] = ap.getNotches().getClass().getMethods();
-
         Button btn3 = (Button) (myView.findViewById(R.id.button3));
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
